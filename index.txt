@@ -1,0 +1,186 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Filippo Leveni
+Filippo Leveni, Ph.D.
+Machine Learning & Data Scientist
+
+Show Contacts
+
+Email
+filippo.leveni@gmail.com
+
+# navbar
+
+About
+Resume
+Portfolio
+Contact
+
+# about
+
+About me
+
+💡 AI Researcher with a passion for designing Machine Learning algorithms to tackle complex real-world challenges.
+📚 Curious learner, always eager to explore cutting-edge ML technologies and solve new problems.
+👥 Excel in collaborative, cross-functional, and diverse team environments.
+📊 Skilled in Python with practical experience in AI frameworks like Scikit-learn.
+
+I work with Anomaly Detection and Statistical models, and I have published research on the
+topics of Structure-based Anomaly Detection, Online Anomaly Detection and Multi-Model Fitting.
+I have also had experience in industry, managing machine learning projects in various settings,
+from Computer Security services to X-Ray scans manufacturing.
+
+
+## service
+
+What i'm doing
+
+alt = design icon
+Research science
+Immersing in the latest waves of Machine Learning to spark fresh ideas and craft smart solutions for real-world problems.
+
+alt = Web development icon
+Research engineering
+Bringing ideas to life through hands-on implementation and deployment, turning smart concepts into impactful, real-world tools.
+
+
+
+# resume
+
+Resume
+
+Education
+
+Ph.D. in Information Technology (Politecnico di Milano)
+Nov 2019 — Mar 2025
+Ph.D. in Information Technology at Politecnico di Milano, focused on Artificial Intelligence and Computer Vision.
+My research involved developing novel methods for online and structure-based anomaly detection, with applications in
+cybersecurity and object recognition. I also contributed to teaching, supervised M.Sc. theses, and presented work at
+international conferences.
+
+M.Sc. in Computer Science and Engineering (Politecnico di Milano)
+Oct 2016 — Dec 2018
+M.Sc. in Computer Science and Engineering at Politecnico di Milano, with a focus on AI and Computer Vision. My thesis
+proposed a template-based object detection algorithm for non-planar targets, requiring no training. Coursework included
+machine learning, deep learning, robotics, and computer vision.
+
+B.Sc. in Computer Science and Engineering (Politecnico di Milano)
+Oct 2013 — Sep 2016
+B.Sc. in Computer Science and Engineering at Politecnico di Milano, combining core computer science and programming
+courses with foundational engineering subjects. This interdisciplinary training provided a broad perspective and
+fostered a holistic approach to problem-solving.
+
+Experience
+
+Ph.D. Student in Information Technology (Politecnico di Milano)
+Nov 2019 — Mar 2025
+During my Ph.D., I explored various machine learning and data mining directions with a focus on anomaly detection.
+I developed Online Isolation Forest, a streaming anomaly detection algorithm that models data using dynamically updated
+tree-based histograms, published at ICML 2024. I also proposed methods for structure-based anomaly detection,
+introducing a preference-based framework and a clustering algorithm capable of recovering multiple parametric models
+from noisy data. In collaboration with Cleafy, I worked on open-set malware detection, extending Gradient Boosting with
+an open-set recognition technique, now integrated into their production engine. I co-supervised M.Sc. theses on topics
+including change detection in data streams and explainable clustering, and provided mentorship on applied problems such
+as point cloud analysis, template matching, and malicious session detection. These experiences allowed me to contribute
+both novel algorithms and real-world machine learning solutions across academic and industrial settings.
+
+Visiting Ph.D. Student at the Artificial Intelligence Institute (The University of Waikato)
+May 2023 — Nov 2023
+During my visit to The University of Waikato, I focused on online learning and streaming anomaly detection, resulting in
+the design of a tree-based method. This work was subsequently published at ICML 2024 and presented in Vienna, and I also
+contributed it to the CapyMOA open-source framework.
+
+Machine Learning Research Fellow (Politecnico di Milano / Cleafy S.p.A. / Gilardoni S.p.A.)
+Feb 2019 — Jan 2025
+During research fellowships, I collaborated on industrial projects including Malicious Web Session Detection for Cleafy,
+where I designed an anomaly detection pipeline and supervised an R&D project on behavioral biometrics. For Gilardoni,
+I developed a Computer Vision algorithm for object detection in multispectral X-Ray imaging and supervised a M.Sc.
+thesis on dangerous item detection for airport security.
+
+
+
+# publications
+
+Publications
+
+All
+Anomaly detection
+Clustering
+Datastream monitoring
+Malware detection
+
+Select category
+All
+Anomaly detection
+Clustering
+Datastream monitoring
+Malware detection
+
+alt = pif: anomaly detection via preference embedding
+PIF: Anomaly detection via preference embedding
+Anomaly detection
+
+alt = hashing for structure-based anomaly detection
+Hashing for Structure-based Anomaly Detection
+Anomaly detection
+
+alt = preference isolation forest for structure-based anomaly detection
+Preference Isolation Forest for Structure-based Anomaly Detection
+Anomaly detection
+
+alt = structure-based anomaly detection and clustering
+Structure-based Anomaly Detection and Clustering
+Anomaly detection
+
+alt = online isolation forest
+Online Isolation Forest
+Anomaly detection, Datastream monitoring
+
+alt = change detection in multivariate data streams: online analysis with kernel-quantTree
+Change Detection in Multivariate data streams: Online Analysis with Kernel-QuantTree
+Datastream monitoring
+
+alt = multiLink: multi-class structure recovery via agglomerative clustering and model selection
+MultiLink: Multi-class Structure Recovery via Agglomerative Clustering and Model Selection
+Clustering
+
+alt = malware families discovery via open-set recognition on android manifest permissions
+Malware families discovery via Open-Set Recognition on Android manifest permissions
+Malware detection
+
+alt = non-planar object detection and identification by features matching and triangulation growth
+Non-planar object detection and identification by features matching and triangulation growth
+Template matching
+
+
+
+# projects
+
+Projects
+
+All
+Anomaly detection
+Datastream monitoring
+
+Select category
+All
+Anomaly detection
+Datastream monitoring
+
+alt = hashing for structure-based anomaly detection
+Hashing for Structure-based Anomaly Detection
+We focus on the problem of identifying samples in a set that do not conform
+to structured patterns represented by low-dimensional manifolds. In this work, we employ Locality
+Sensitive Hashing to avoid explicit computation of distances in high dimensions and thus improve
+Anomaly Detection efficiency. Specifically, we present an isolation-based anomaly detection technique
+designed to work in the Preference Space which achieves state-of-the-art performance at a lower
+computational cost.
+
+alt = online isolation forest
+Online Isolation Forest
+The anomaly detection literature is abundant with offline methods, which
+require repeated access to data in memory, and impose impractical as sumptions when applied to a
+streaming context. Online Isolation Forest is an anomaly detection algorithm explicitly designed for
+streaming conditions, and it seamlessly tracks the data generating process as it evolves over time.

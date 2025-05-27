@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filippo Leveni Webpage</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-photo.jpg" alt="Filippo Leveni" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Filippo Leveni">Filippo Leveni, Ph.D.</h1>
+
+          <p class="title">Machine Learning & Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:filippo.leveni@gmail.com" class="contact-link">filippo.leveni@gmail.com</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/filippo-leveni/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/ineveLoppiliF" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=dYX0BRwAAAAJ&hl=it" class="social-link">
+              <i class="fas fa-graduation-cap"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            💡 AI Researcher with a passion for designing Machine Learning algorithms to tackle complex real-world challenges.<br>
+            📚 Curious learner, always eager to explore cutting-edge ML technologies and solve new problems.<br>
+            👥 Excel in collaborative, cross-functional, and diverse team environments.<br>
+            📊 Skilled in Python with practical experience in AI frameworks like Scikit-learn.
+          </p>
+
+          <p>
+            I work with Anomaly Detection and Statistical models, and I have published research on the
+            topics of Structure-based Anomaly Detection, Online Anomaly Detection and Multi-Model Fitting.
+            I have also had experience in industry, managing machine learning projects in various settings,
+            from Computer Security services to X-Ray scans manufacturing.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research science</h4>
+
+                <p class="service-item-text">
+                  Immersing in the latest waves of Machine Learning to spark fresh ideas and craft smart solutions for real-world problems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research engineering</h4>
+
+                <p class="service-item-text">
+                  Bringing ideas to life through hands-on implementation and deployment, turning smart concepts into impactful, real-world tools.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ph.D. in Information Technology<span style="font-weight: normal; font-style: italic; color: white;">Politecnico di Milano - Italy</span></h4>
+
+              <span>Nov 2019 — Mar 2025</span>
+
+              <p class="timeline-text">
+                Ph.D. in Information Technology at Politecnico di Milano, focused on Artificial Intelligence and Computer Vision.
+                My research involved developing novel methods for online and structure-based anomaly detection, with applications in
+                cybersecurity and object recognition. I also contributed to teaching, supervised M.Sc. theses, and presented work at
+                international conferences.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.Sc. in Computer Science and Engineering<span style="font-weight: normal; font-style: italic; color: white;">Politecnico di Milano - Italy</span></h4>
+
+              <span>Oct 2016 — Dec 2018</span>
+
+              <p class="timeline-text">
+                M.Sc. in Computer Science and Engineering at Politecnico di Milano, with a focus on AI and Computer Vision. My thesis
+                proposed a template-based object detection algorithm for non-planar targets, requiring no training. Coursework included
+                machine learning, deep learning, robotics, and computer vision.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.Sc. in Computer Science and Engineering<span style="font-weight: normal; font-style: italic; color: white;">Politecnico di Milano - Italy</span></h4>
+
+              <span>Oct 2013 — Sep 2016</span>
+
+              <p class="timeline-text">
+                B.Sc. in Computer Science and Engineering at Politecnico di Milano, combining core computer science and programming
+                courses with foundational engineering subjects. This interdisciplinary training provided a broad perspective and
+                fostered a holistic approach to problem-solving.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="cog-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ph.D. Student in Information Technology<span style="font-weight: normal; font-style: italic; color: white;">Politecnico di Milano - Italy</span></h4>
+
+              <span>Nov 2019 — Mar 2025</span>
+
+              <p class="timeline-text">
+                During my Ph.D., I explored various machine learning and data mining directions with a focus on anomaly detection.
+                I developed Online Isolation Forest, a streaming anomaly detection algorithm that models data using dynamically updated
+                tree-based histograms, published at ICML 2024. I also proposed methods for structure-based anomaly detection,
+                introducing a preference-based framework and a clustering algorithm capable of recovering multiple parametric models
+                from noisy data. In collaboration with Cleafy, I worked on open-set malware detection, extending Gradient Boosting with
+                an open-set recognition technique, now integrated into their production engine. I co-supervised M.Sc. theses on topics
+                including change detection in data streams and explainable clustering, and provided mentorship on applied problems such
+                as point cloud analysis, template matching, and malicious session detection. These experiences allowed me to contribute
+                both novel algorithms and real-world machine learning solutions across academic and industrial settings.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Visiting Ph.D. Student at the Artificial Intelligence Institute<span style="font-weight: normal; font-style: italic; color: white;">The University of Waikato - New Zealand</span></h4>
+
+              <span>May 2023 — Nov 2023</span>
+
+              <p class="timeline-text">
+                During my visit to The University of Waikato, I focused on online learning and streaming anomaly detection, resulting in
+                the design of a tree-based method. This work was subsequently published at ICML 2024 and presented in Vienna, and I also
+                contributed it to the CapyMOA open-source framework.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Research Fellow<span style="font-weight: normal; font-style: italic; color: white;">Politecnico di Milano / Cleafy S.p.A. / Gilardoni S.p.A. - Italy</span></h4>
+
+              <span>Feb 2019 — Jan 2025</span>
+
+              <p class="timeline-text">
+                During research fellowships, I collaborated on industrial projects including Malicious Web Session Detection for Cleafy,
+                where I designed an anomaly detection pipeline and supervised an R&D project on behavioral biometrics. For Gilardoni,
+                I developed a Computer Vision algorithm for object detection in multispectral X-Ray imaging and supervised a M.Sc.
+                thesis on dangerous item detection for airport security.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PUBLICATIONS
+      -->
+
+      <article class="portfolio" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Anomaly detection</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Clustering</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Datastream monitoring</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Malware detection</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Template matching</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Anomaly detection</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Clustering</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Datastream monitoring</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Malware detection</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="anomaly detection">
+              <a href="https://doi.org/10.1109/ICPR48806.2021.9412658">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PIF: Anomaly detection via preference embedding.png"
+                       alt="pif: anomaly detection via preference embedding" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PIF: Anomaly detection via preference embedding</h3>
+
+                <p class="project-category">ICPR 2020</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="anomaly detection">
+              <a href="https://doi.org/10.1007/978-3-031-43153-1_3">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Hashing for Structure-based Anomaly Detection.png" alt="hashing for structure-based anomaly detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hashing for Structure-based Anomaly Detection</h3>
+
+                <p class="project-category">ICIAP 2023</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="anomaly detection">
+              <a href="https://doi.org/10.2139/ssrn.5201368">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Preference Isolation Forest for Structure-based Anomaly Detection.png" alt="preference isolation forest for structure-based anomaly detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Preference Isolation Forest for Structure-based Anomaly Detection</h3>
+
+                <p class="project-category">Pattern Recognition (submitted)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="anomaly detection,clustering,datastream monitoring,malware detection">
+              <a href="https://doi.org/10.48550/arXiv.2505.12751">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Structure-based Anomaly Detection and Clustering.png" alt="structure-based anomaly detection and clustering" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Structure-based Anomaly Detection and Clustering</h3>
+
+                <p class="project-category">Ph.D. dissertation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="anomaly detection,datastream monitoring">
+              <a href="https://doi.org/10.48550/arXiv.2505.09593">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Online Isolation Forest.png" alt="online isolation forest" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Online Isolation Forest</h3>
+
+                <p class="project-category">ICML 2024</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="datastream monitoring">
+              <a href="https://doi.org/10.1007/978-3-031-77066-1_7">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Change Detection in Multivariate data streams: Online Analysis with Kernel-QuantTree.png" alt="change detection in multivariate data streams: online analysis with kernel-quantTree" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Change Detection in Multivariate data streams: Online Analysis with Kernel-QuantTree</h3>
+
+                <p class="project-category">ECML 2024 - Workshops</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="clustering">
+              <a href="https://doi.org/10.1109/CVPR46437.2021.00189">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/MultiLink: Multi-class Structure Recovery via Agglomerative Clustering and Model Selection.png" alt="multiLink: multi-class structure recovery via agglomerative clustering and model selection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MultiLink: Multi-class Structure Recovery via Agglomerative Clustering and Model Selection</h3>
+
+                <p class="project-category">CVPR 2021</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="malware detection">
+              <a href="https://doi.org/10.48550/arXiv.2505.12750">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Malware families discovery via Open-Set Recognition on Android manifest permissions.png" alt="malware families discovery via open-set recognition on android manifest permissions" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Malware families discovery via Open-Set Recognition on Android manifest permissions</h3>
+
+                <p class="project-category">ECAI 2025 (submitted)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="template matching">
+              <a href="https://hdl.handle.net/10589/144808">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Non-planar object detection and identification by features matching and triangulation growth.png" alt="non-planar object detection and identification by features matching and triangulation growth" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Non-planar object detection and identification by features matching and triangulation growth</h3>
+
+                <p class="project-category">M.Sc. thesis</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Anomaly detection</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Datastream monitoring</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Anomaly detection</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Datastream monitoring</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="anomaly detection">
+              <a href="https://github.com/ineveLoppiliF/Hashing-for-Structure-based-Anomaly-Detection">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Hashing for Structure-based Anomaly Detection.jpeg" alt="hashing for structure-based anomaly detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hashing for Structure-based Anomaly Detection</h3>
+
+                <p class="project-category">We address the problem of identifying samples in a set that do not conform
+                  to structured patterns represented by low-dimensional manifolds. Using Locality Sensitive Hashing to
+                  bypass high-dimensional distance computations, we speed up Anomaly Detection. Our isolation-based
+                  technique in achieves state-of-the-art performance at a lower computational cost.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="anomaly detection,datastream monitoring">
+              <a href="https://github.com/ineveLoppiliF/Online-Isolation-Forest">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Online Isolation Forest.jpeg" alt="online isolation forest" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Online Isolation Forest</h3>
+
+                <p class="project-category">The anomaly detection literature is abundant with offline methods, which
+                  require repeated access to data in memory, and impose impractical as sumptions when applied to a
+                  streaming context. Online Isolation Forest is an anomaly detection algorithm explicitly designed for
+                  streaming conditions, and it seamlessly tracks the data generating process as it evolves over time.</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
